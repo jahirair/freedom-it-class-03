@@ -1,0 +1,46 @@
+/*Table Border*/
+table{width:500px;}
+
+
+#border{
+    border:1px solid red;
+    
+}
+#border th,#border td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+#border_collapse, #border_collapse th, #border_collapse td{
+     border:1px solid red;
+    border-collapse: collapse;
+}
+#cell_padding{
+    border:1px solid red;
+    padding:25px;
+    
+    
+}
+#cell_padding th, #cell_padding td{
+    border:1px solid green;
+    padding:10px;
+    
+}
+#cell_padding th{text-align: right;} 
+
+#cell_padding td{
+    text-align: center;
+}
+
+#cell_spacing, #cell_spacing th, #cell_spacing td {
+    border:1px solid black;
+    border-spacing: 30px;
+}
+
+#span, #span th, #span td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+#span th{color:red;}
+
